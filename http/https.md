@@ -25,7 +25,7 @@ http:
 
 ### Let's Encrypt
 
-RR starting from the `v2.5.0` can automatically obtain TLS certificates for your domain. The folder with your certs might be moved between servers, RR will check the `certs_dir` and obtain a new certificate if the old one is above to expire.
+RR starting from the `v2.5.0` can automatically obtain TLS certificates for your domain. The folder with your certs might be moved between servers, RR will check the `certs_dir` and obtain a new certificate if the old one is about to expire.
 RR will track your certificate's expiration date and refresh it automatically.
 
 ### Configuration
